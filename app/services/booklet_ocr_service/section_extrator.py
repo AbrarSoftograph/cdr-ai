@@ -5,10 +5,12 @@ from typing import List, Dict, Any
 
 def extract_objects_from_images(images: List[Dict[str, str]]) -> List[Dict[str, Any]]:
     """
-    Extract objects from a list of images using YOLO object detection and return structured data based on image type.
+    Extract objects from a list of images using YOLO object detection and return structured data \
+        based on image type.
 
     Args:
-        images: List of dictionaries, each with a key ('outlet_copy' or 'partner_copy') and value (image file path)
+        images: List of dictionaries, each with a key ('outlet_copy' or 'partner_copy') and value \
+            (image file path)
 
     Returns:
         List of dictionaries containing structured data based on image type
