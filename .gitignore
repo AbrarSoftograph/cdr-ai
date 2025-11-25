@@ -19,3 +19,4 @@ app/ml_models/*
 !app/ml_models/.gitkeep
 app/models/*
 !app/models/.gitkeep
+test_images/

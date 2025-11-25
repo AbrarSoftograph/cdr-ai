@@ -1,5 +1,5 @@
 [project]
-name = "cdr-booklet-ai"
+name = "cdr-ai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -15,6 +15,9 @@ dependencies = [
     "flower>=2.0.1",
     "redis>=7.1.0",
     "pytest>=9.0.1",
+    "ultralytics>=8.0.0",
+    "pillow>=10.0.0",
+    "matplotlib>=3.5.0",
 ]
 
 [project.dependency-groups]
